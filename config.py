@@ -6,7 +6,7 @@ from os import getenv
 
 API_KEY = "Paste Your Key Here"
 
-if not API_KEY or API_KEY == "Paste Your Key Here" or API_KEY == "":
+if not API_KEY or API_KEY == "Paste Your Key Here" or API_KEY == "RZOCAY":
     API_KEY = getenv("API_KEY")
 
     if not API_KEY:
